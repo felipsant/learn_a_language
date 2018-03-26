@@ -1,0 +1,22 @@
+[
+    {
+        "guid": "6ab6ca35485249bd98bc879f66bc7bec",
+        "expression":"Qué se yo",
+        "expression_in_phrase":["¿Qué podemos cenar esta noche? Qué se yo."]
+    },
+    {
+        "guid": "75a3c9e5f1ce4fa2af599cdea4b16c74",
+        "expression":"Estar al pedo",
+        "expression_in_phrase":["¿Quéres venirte a mi casa? Voy a estar al pedo todo el día"]
+    },
+    {
+        "guid": "959e0934f1c74b85a02a2bbaba1a25f9",
+        "expression":"Estar en pedo",
+        "expression_in_phrase":["Cuando una persona esta borracho. Estar en pedo"]
+    },
+    {
+        "guid": "f46d9498e0d34b0483d85ef878285071",
+        "expression":"Luegué de pedo",
+        "expression_in_phrase":["El colectivo passa as la 6 de la tarde, e me fui correndo a tomalo e luegué de pedo"]
+    }
+]
