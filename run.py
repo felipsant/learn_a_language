@@ -4,4 +4,4 @@ import sys
 if len(sys.argv) > 1:
     run(sys.argv[1])
 else:
-    run(1)
+    run()

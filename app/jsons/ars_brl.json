@@ -1,0 +1,154 @@
+[
+    {
+        "guid": "6ab6ca35485249bd98bc879f66bc7bec",
+        "expression":"Qué se yo",
+        "expression_in_phrase":["¿Qué podemos cenar esta noche? Qué se yo."],
+        "type": "Expression",
+        "expression_brl":"Não sei",
+        "expression_in_phrase_brl":["O que podemos fazer esta noite? Não sei."],
+        "font": "16421829c303466d9e1aa13647609719"
+    },
+    {
+        "guid": "75a3c9e5f1ce4fa2af599cdea4b16c74",
+        "expression":"Estar al pedo",
+        "expression_in_phrase":["¿Quéres venirte a mi casa? Voy a estar al pedo todo el día"],
+        "type": "Expression",
+        "expression_brl":"Estou atoa",
+        "expression_in_phrase_brl":["Quer vir a minha casa? vou estar atoa o dia todo."],
+        "font": "16421829c303466d9e1aa13647609719"
+    },
+    {
+        "guid": "959e0934f1c74b85a02a2bbaba1a25f9",
+        "expression":"Estar en pedo",
+        "expression_in_phrase":["Cuando una persona esta borracho. Estar en pedo"],
+        "type": "Expression",
+        "expression_brl":"Estar bêbada",
+        "expression_in_phrase_brl":["Quando uma pessoa esta bêbada, estar bêbado"],
+        "font": "16421829c303466d9e1aa13647609719"
+    },
+    {
+        "guid": "f46d9498e0d34b0483d85ef878285071",
+        "expression":"Luegué de pedo",
+        "expression_in_phrase":["El colectivo passa as la 6 de la tarde, e me fui correndo a tomalo e luegué de pedo"],
+        "type": "Expression",
+        "expression_brl":"Cheguei na hora",
+        "expression_in_phrase_brl":["O coletivo passa as 6 horas da tarde, e eu fui correndo a chegar e cheguei na hora"],
+        "font": "16421829c303466d9e1aa13647609719"
+    },
+    {
+        "guid": "bd27a9f7ddfc4d60b00d27e316f11ae1",
+        "expression":"Chaqueta de Moletón",
+        "expression_in_phrase":["Quiero comprar una chaqueta de moletón"],
+        "type": "Vocabulary",
+        "subtypes": ["Clothes"],
+        "font": "9d633a244da84c6f9f93c430b28195df"        
+    },
+    {
+        "guid": "f9864be07c8341b7a725e1affe462f05",
+        "expression":"Plancha",
+        "expression_in_phrase":["quiero pasar una ropa, necesito comprar un plancha"],
+        "type": "Vocabulary",
+        "subtypes": ["Appliance","Clothes"],
+        "font": "9d633a244da84c6f9f93c430b28195df"
+    },
+    {
+        "guid": "acf6d649b31d4a98a8fef745f758f2b0",
+        "expression":"Personal Pronouns",
+        "expression_in_phrase":[""],
+        "type": "Personal Pronouns",
+        "subtypes": ["Yo","Tú","Vós","El/Ella/Usted","Nosotros/Nosotras","Vosotros/Vosotras","Ellos/Ellas/Ustedes"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"
+    },    
+    {
+        "guid": "19f7cd66012249a39f163daada93d546",
+        "expression":"Ser",
+        "expression_in_phrase":["Soy Pedro, e este es un compañero de la facultad."],
+        "type": "Verb",
+        "subtypes":["Soy","Eres","Sos","Es","Somos", "Son"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"
+    },
+    {
+        "guid": "aeb051e497fe4deba1f8128348b58e4a",
+        "expression":"Tener",
+        "expression_in_phrase":[""],
+        "type": "Verb",
+        "subtypes":["Tengo","Tienes","Tenés","Tiene", "Tenemos","Tienen"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"
+    },    
+    {
+        "guid": "8b7b60a5f45e4de5b90abd0948253ab4",
+        "expression":"Estar",
+        "expression_in_phrase":["¿Dónde está el diario?","¿Dónde está ahora?"],
+        "type": "Verb",
+        "subtypes":["Estoy","Eston","Esta","Estamos", "Estás"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"
+    },
+    {
+        "guid": "11ba26094c1f4a16a200fc635be55a42",
+        "expression":"Haber",
+        "expression_in_phrase":["¿Qué hay en latino américa?"],
+        "type": "Verb",
+        "subtypes":["Hay"],
+        "font": "da9a71fac0724164b8f691d313bbe70c",
+        "expression_brl":"O que há?",
+        "expression_in_phrase_brl":["O que há na América Latina?"]
+    },
+    {
+        "guid": "fb3980053aab49ffa774a78584262cc8",
+        "expression":"Gusta",
+        "expression_in_phrase":["¿Nadia gusta de las Flores?"],
+        "type": "Verb",
+        "subtypes":["Gusta","Gustam"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"
+    },
+    {
+        "guid": "0925aed32de648fb92b00bdb7f93ccf6",
+        "expression":"Me",
+        "expression_in_phrase":[""],
+        "type": "Verb",
+        "subtypes":["Me","Te","Le","Vos","Les"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"        
+    },
+    {
+        "guid": "07e44db772a446de9259eab3f903b16a",
+        "expression":"Cardinal Points",
+        "expression_in_phrase":["Minas Gerais es una provincia de Brasil y está en Suroeste del país. Su capital se llama Belo Horizonte y está ao norte de me ciudad natal Juiz de Fora.",
+        "¿Dondé está Suiza? Está en el centro de Europa"],
+        "type": "Vocabulary",
+        "subtypes":["Norte","Noroeste","Al oeste","Suroeste","Sur","Sureste","Al este","Norteste","Centro"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"
+    },
+    {
+        "guid": "2c5fc6db34b545aca766f839c593f6b6",
+        "expression":"Calle",
+        "expression_in_phrase":["En la calle Lavalle hay unos cines y muchos negocios de ropas."],
+        "type": "Vocabulary",
+        "expression_brl":"Rua",
+        "subtypes": ["Street"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"        
+    },
+    {
+        "guid": "8d6a8c35c43143a3a01e6df717b0e3e7",
+        "expression":"LLA / YA == Cha",
+        "expression_in_phrase":["Subte B, Stacion, Angel Callardo", "Se llama Felipe"],
+        "type": "Translation Sound",
+        "subtypes": ["LLA","YA"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"        
+    },
+    {
+        "guid": "acf6d649b31d4a98a8fef745f758f2b0",
+        "expression":"¿Qué O Cuál?",
+        "expression_in_phrase":["¿Cuál es la ciudad más conocida de Argentina? Buenos Aires."],
+        "type": "Expression",
+        "subtypes": ["¿Cuál","¿Qué","¿Cuáles","Qué"],
+        "font": "da9a71fac0724164b8f691d313bbe70c"       
+    },
+    {
+        "guid": "e6b4c8697a8a4987a3fafd2415c7a724",
+        "expression":"",
+        "expression_in_phrase":[""],
+        "type": "Expression",
+        "subtypes": [""],
+        "font": "da9a71fac0724164b8f691d313bbe70c"       
+    }
+]
