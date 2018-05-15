@@ -1,0 +1,7 @@
+// File Preferences.
+[
+    { "key": "ctrl+p",                "command": "workbench.action.tasks.runTask" },
+    { "key": "ctrl+o",                "command": "workbench.action.tasks.terminate" }
+]
+
+//

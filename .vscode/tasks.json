@@ -1,0 +1,35 @@
+{
+    "version": "0.1.0",
+    "command": "sh",
+    "args": ["-c"],
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "tasks": [
+        {
+            "taskName": "CTRL + SHIFT _ B",
+            "isBuildCommand": true,
+            "args": ["make build"]
+        },
+        {
+            "taskName": "0_build",
+            "args": ["make -C ${fileDirname} build;"]
+        },
+        {
+            "taskName": "1_run",
+            "args": ["make -C ${fileDirname} run;"]
+        },
+        {
+            "taskName": "2_install",
+            "args": ["make -C ${fileDirname} install;"]
+        },
+        {
+            "taskName": "3_test",
+            "args": ["make -C ${fileDirname} test;"]
+        },
+        {
+            "taskName": "9_new_guid",
+            "args": ["make -C ${fileDirname} new_guid;"]
+        }
+    ]
+}
