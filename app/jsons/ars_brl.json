@@ -4,8 +4,8 @@
         "expression":"Qué se yo",
         "expression_in_phrase":["¿Qué podemos cenar esta noche? Qué se yo."],
         "type": "Expression",
-        "expression_brl":"Não sei",
-        "expression_in_phrase_brl":["O que podemos fazer esta noite? Não sei."],
+        "expression_translated":"Não sei",
+        "expression_in_phrase_translated":["O que podemos fazer esta noite? Não sei."],
         "font": "16421829c303466d9e1aa13647609719"
     },
     {
@@ -13,8 +13,8 @@
         "expression":"Estar al pedo",
         "expression_in_phrase":["¿Quéres venirte a mi casa? Voy a estar al pedo todo el día"],
         "type": "Expression",
-        "expression_brl":"Estou atoa",
-        "expression_in_phrase_brl":["Quer vir a minha casa? vou estar atoa o dia todo."],
+        "expression_translated":"Estou atoa",
+        "expression_in_phrase_translated":["Quer vir a minha casa? vou estar atoa o dia todo."],
         "font": "16421829c303466d9e1aa13647609719"
     },
     {
@@ -22,8 +22,8 @@
         "expression":"Estar en pedo",
         "expression_in_phrase":["Cuando una persona esta borracho. Estar en pedo"],
         "type": "Expression",
-        "expression_brl":"Estar bêbada",
-        "expression_in_phrase_brl":["Quando uma pessoa esta bêbada, estar bêbado"],
+        "expression_translated":"Estar bêbada",
+        "expression_in_phrase_translated":["Quando uma pessoa esta bêbada, estar bêbado"],
         "font": "16421829c303466d9e1aa13647609719"
     },
     {
@@ -31,8 +31,8 @@
         "expression":"Luegué de pedo",
         "expression_in_phrase":["El colectivo passa as la 6 de la tarde, e me fui correndo a tomalo e luegué de pedo"],
         "type": "Expression",
-        "expression_brl":"Cheguei na hora",
-        "expression_in_phrase_brl":["O coletivo passa as 6 horas da tarde, e eu fui correndo a chegar e cheguei na hora"],
+        "expression_translated":"Cheguei na hora",
+        "expression_in_phrase_translated":["O coletivo passa as 6 horas da tarde, e eu fui correndo a chegar e cheguei na hora"],
         "font": "16421829c303466d9e1aa13647609719"
     },
     {
@@ -90,8 +90,8 @@
         "type": "Verb",
         "subtypes":["Hay"],
         "font": "da9a71fac0724164b8f691d313bbe70c",
-        "expression_brl":"O que há?",
-        "expression_in_phrase_brl":["O que há na América Latina?"]
+        "expression_translated":"O que há?",
+        "expression_in_phrase_translated":["O que há na América Latina?"]
     },
     {
         "guid": "fb3980053aab49ffa774a78584262cc8",
@@ -123,7 +123,7 @@
         "expression":"Calle",
         "expression_in_phrase":["En la calle Lavalle hay unos cines y muchos negocios de ropas."],
         "type": "Vocabulary",
-        "expression_brl":"Rua",
+        "expression_translated":"Rua",
         "subtypes": ["Street"],
         "font": "da9a71fac0724164b8f691d313bbe70c"        
     },

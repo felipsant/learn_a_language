@@ -2,6 +2,8 @@ from app.playsound import Sound
 from app.app import read_language
 import pytest
 import json
+import time
+from subprocess import call
 
 
 RUN_PARAMETERS = [("ars_brl", "6ab6ca35485249bd98bc879f66bc7bec")]
@@ -17,5 +19,8 @@ def test_run(language, guid):
             break
     # Transform python object back into json
     print("FILTERED_GUID_JSON:" + str(output_json))
-    Sound(guid, output_json["expression_in_phrase"][0]).run('1', debug=True)
-    assert 1 == 4
+
+    thread_sound = Sound(guid, output_json["expression_in_phrase"][0])
+    thread_sound.start()
+    time.sleep(3)
+    thread_sound.shutdown_flag.set()

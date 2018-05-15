@@ -43,8 +43,8 @@ def ask_questions(json_class, level):
         expression = item["expression"]
         print("Expression: " + expression)
 
-        expression_brl = item["expression_brl"]
-        print("Translated: " + expression_brl)
+        expression_translated = item["expression_translated"]
+        print("Translated: " + expression_translated)
 
         expression_phrase = item["expression_in_phrase"]
         for x in xrange(len(expression_phrase)):

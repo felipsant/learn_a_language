@@ -7,11 +7,6 @@
     "suppressTaskName": true,
     "tasks": [
         {
-            "taskName": "CTRL + SHIFT _ B",
-            "isBuildCommand": true,
-            "args": ["make build"]
-        },
-        {
             "taskName": "0_build",
             "args": ["make -C ${fileDirname} build;"]
         },

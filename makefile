@@ -21,3 +21,6 @@ test: venv
 
 new_guid: venv
 	venv/bin/python new_guid.py
+
+build: 
+	docker build .

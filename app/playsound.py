@@ -18,7 +18,7 @@ class Sound(threading.Thread):
         self.guid = guid
         self.expression_in_phrase = expression_in_phrase
         self.fpath = os.path.dirname(__file__) + "/sounds/" + str(self.guid)
-        + ".wav"
+        self.fpath += ".wav"
 
     def play_audio_from_file(self):
         # define stream chunk
