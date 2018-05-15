@@ -3,6 +3,7 @@ from app.app import read_language
 import pytest
 import json
 import time
+import os
 
 
 RUN_PARAMETERS = [("ars_brl", "6ab6ca35485249bd98bc879f66bc7bec",
@@ -10,8 +11,14 @@ RUN_PARAMETERS = [("ars_brl", "6ab6ca35485249bd98bc879f66bc7bec",
 
 
 def check_sound_is_playing(expected):
-    
-    assert expected
+    command = """if grep -q RUNNING /proc/asound/card*/*p/*/status 2>&1; then
+        echo True
+    else
+        echo False
+    fi"""
+    result = os.popen(command).read().replace('\n', '')
+    result = result == 'True'
+    assert result == expected
 
 
 def check_sound(output_json, guid):
@@ -33,5 +40,5 @@ def check_sound(output_json, guid):
 @pytest.mark.parametrize("language,guid,guid_no_sound", RUN_PARAMETERS)
 def test_run(language, guid, guid_no_sound):
     output_json = read_language(language)
-    check_sound(output_json, guid_no_sound)
     check_sound(output_json, guid)
+    check_sound(output_json, guid_no_sound)
