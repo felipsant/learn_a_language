@@ -14,7 +14,7 @@ install:
 	)
 
 run: venv
-	venv/bin/python run.py 1
+	venv/bin/python run.py 0
 
 test: venv
 	venv/bin/pytest --cov=app tests;

@@ -3,15 +3,18 @@ from app.app import read_language
 import pytest
 import json
 import time
-from subprocess import call
 
 
-RUN_PARAMETERS = [("ars_brl", "6ab6ca35485249bd98bc879f66bc7bec")]
+RUN_PARAMETERS = [("ars_brl", "6ab6ca35485249bd98bc879f66bc7bec",
+                   "959e0934f1c74b85a02a2bbaba1a25f9")]
 
 
-@pytest.mark.parametrize("language,guid", RUN_PARAMETERS)
-def test_run(language, guid):
-    output_json = read_language(language)
+def check_sound_is_playing(expected):
+    
+    assert expected
+
+
+def check_sound(output_json, guid):
     # Filter python objects with list comprehensions
     for x in output_json:
         if x['guid'] == guid:
@@ -19,8 +22,16 @@ def test_run(language, guid):
             break
     # Transform python object back into json
     print("FILTERED_GUID_JSON:" + str(output_json))
-
+    check_sound_is_playing(False)
     thread_sound = Sound(guid, output_json["expression_in_phrase"][0])
     thread_sound.start()
     time.sleep(3)
+    check_sound_is_playing(True)
     thread_sound.shutdown_flag.set()
+
+
+@pytest.mark.parametrize("language,guid,guid_no_sound", RUN_PARAMETERS)
+def test_run(language, guid, guid_no_sound):
+    output_json = read_language(language)
+    check_sound(output_json, guid_no_sound)
+    check_sound(output_json, guid)
