@@ -10,7 +10,7 @@ Kivy==1.10.0
 Kivy-Garden==0.1.4
 more-itertools==4.1.0
 pluggy==0.6.0
-py==1.5.3
+py==1.10.0
 PyAudio==0.2.11
 Pygments==2.2.0
 pytest==3.5.1
